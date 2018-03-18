@@ -1,0 +1,17 @@
+---
+dist: trusty
+
+language: go
+go: master
+
+cache:
+  directories: [vendor/]
+
+before_install:
+  - go get -u github.com/kardianos/govendor
+  - govendor fetch +m
+install: go build
+script: go test
+
+notifications:
+  email: { on_success: never, on_failure: never }

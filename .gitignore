@@ -4,6 +4,8 @@
 /vendor/*
 !/vendor/vendor.json
 
+/gro
+
 # Upstream: https://github.com/github/gitignore/blob/master/Go.gitignore
 # -----------------------------------------------------------------------------
 
