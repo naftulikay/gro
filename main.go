@@ -1,9 +1,9 @@
 package main
 
 import (
-  "fmt"
+	"github.com/naftulikay/gro/cmd"
 )
 
 func main() {
-  fmt.Println("Hello World")
+	cmd.Execute()
 }
