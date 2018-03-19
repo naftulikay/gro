@@ -11,9 +11,7 @@ var rootCmd = &cobra.Command{
   Use:   "gro",
   Short: "A crommand line utilidang in grolang.",
   Long: "A crommand line utilidang in grolang.",
-  Run: func(cmd *cobra.Command, args []string) {
-    fmt.Println("Hello world.")
-  },
+  Run: func(cmd *cobra.Command, args []string) {},
 }
 
 func Execute() {
